@@ -1,0 +1,63 @@
+/* pokemon.css */
+
+/* Reset básico e configuração do layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0; /* Cor de fundo geral */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilização do título principal */
+h1 {
+    background-color: #ffcb05; /* Cor de fundo da Pokedex */
+    color: #3d7dca;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilização do container de Pokémon */
+div {
+    background-color: #fff;
+    border: 2px solid #ffcb05; /* Cor de borda inspirada na Pokedex */
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    max-width: 800px;
+}
+
+/* Estilização dos links */
+a {
+    text-decoration: none;
+    color: #3d7dca; /* Cor do texto dos links */
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efeito ao passar o mouse sobre o link */
+a:hover {
+    background-color: #3d7dca;
+    color: #fff;
+}
+
+/* Estilização da lista de Pokémon */
+div:nth-child(even) {
+    background-color: #f4f4f4;
+}
